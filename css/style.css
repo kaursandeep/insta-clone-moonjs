@@ -1,0 +1,187 @@
+ /**Custom css file**/
+ body {
+      margin-top:0px;
+      padding-top:0px;
+      font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size: 15px;
+    }
+    .header {
+      background-color: #FFFFFF;
+      height: 80px;
+      border: 1px solid #E6E6E6;
+    }
+    .maincontent {
+        min-height: 1100px;
+        background-color:#FAFAFA;
+      }
+	.logo {
+		width: 30px;
+		height: 30px;
+		margin-right: 13px;
+	}
+	
+	.tagline {
+		margin-left: 13px;
+		height: 38px;
+	} 
+	.mainsearch .form-control { 
+			    height: 28px;
+				width: 200px;
+				background-image: url(../img/header/search-icon.png);
+				background-size: 15px;
+				background-repeat: no-repeat;
+				background-position-x: 62px;
+				background-position-y: 6px;
+				text-align: center;
+				color: #dbdbdb;
+	}
+	.mainsearch input {
+	background: #fafafa;
+    border: solid 1px #dbdbdb;
+	box-shadow: none;
+	}
+	.nav1 {
+		min-width: 40%;float: left;
+	}
+	.nav2 {float: left;}
+	.nav3 {   width: auto;   float: right; margin-top: 8px;}
+	.nav3 img {
+	width: 22px;
+    height: 22px;
+    margin-left: 24px;
+	}
+	
+	.centercontent{
+	    height:auto;
+		margin-top: 60px;
+	    }
+	    
+	    .postheader{
+	        height: 67px;
+	        border: none;
+	    }
+	    .profilephoto{
+	        height: 45px;
+	        width: 45px;
+	    }
+	    
+	    .profilediv {    float: left;
+                        margin-top: 10px;
+                        margin-left: 20px;}
+	    
+	    .profilename .textname{
+	            font-weight: 500;
+                float: left;
+                color: #262626;
+                margin-top: 22px;
+                margin-left: 10px;
+	    }
+	    .profilename {float:left;}
+		.posttime {float: right; color: #999;margin-top:20px; margin-right:17px;}
+	    .imagediv{
+	        border:none;
+	    }
+	    .imagediv img {width : 100%;}
+	    .likes {
+	    	    text-align: left;
+    			margin-top: 10px;
+	    }
+	    .comments {
+	    	    list-style-type: none;
+			    padding-left: 0;
+			    margin-right: 18px;
+			    text-align: left;
+	    }
+		
+		a,a:hover, a:focus {
+			color: #262626;
+		}
+		.postcontent {    padding: 25px;}
+		.likeicon  {float: left;
+			font-size: 23px;
+			color: #999;
+			border: 17px;
+			}
+		.addcomment {    float: left;
+						border: none;
+						margin-left: 11px;
+						font-size: 16px;
+						height: 29px;
+						outline: none;	
+						}
+		.reaction{ height: 18px;}
+		footer {
+			background-color: #FAFAFA;
+			color: #999;
+			text-align: center;
+			text-decoration:none;
+		}
+		footer span:hover {text-decoration:none;}
+		.postcover {
+		    margin-bottom: 77px;
+		    background-color: white;
+		    border: 1px solid #E6E6E6;
+		}
+		
+		.joinForm {
+			width: 271px;
+		}
+		
+		.Signupbutton{
+			border: none;
+			outline: none;
+			background: none;
+			margin: 0;
+			padding: 0;
+			
+			
+		}
+		
+		.mainborder{
+			border: 2px solid;
+			border-color: #e6e6e6;
+            padding: 17px;
+            width: 307px;
+            background-color: white;
+            margin-top: 5px;
+           
+
+		}
+		.signuplayout{
+			border-top: 20px;
+			padding-top: 50px;
+			background-color: #fafafa;
+		}
+		.joinimage{
+			width:100%;
+		}
+		.addpicture{
+			    margin-top: 20px;
+    			margin-left: 2%;
+		}
+		.logout {
+			float:right;
+		}
+		
+		@media (min-width: 1701px) {
+			.mainc {    padding-left: 9%;    padding-right: 9%;}
+		}
+		
+		@media (min-width: 1300px) and (max-width: 1700px) {
+			.mainc {    padding-left: 5%;    padding-right: 5%;}
+		}
+		@media (min-width: 1000px) and (max-width: 1310px) {
+			.tnavbar {    padding: 1% 18%;			}
+		}
+		@media (min-width: 1311px) {
+			.tnavbar{    padding: 1% 26%;	}
+		}
+		
+		@media (max-width: 1200px) {
+			.joinimage{ display:none;}
+			.mainborder{margin:auto;}
+			.appstore{margin: auto;text-align: center;}
+		}
+		@media (max-width: 640px) {
+			.nav2{display: none}
+		}
